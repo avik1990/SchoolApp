@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#82B1FF"
+    android:fitsSystemWindows="true">
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:padding="10dp"
+        app:layout_heightPercent="40%"
+        app:layout_widthPercent="100%">
+
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/logo_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_logo"
+                android:src="@mipmap/ic_launcher"
+                app:layout_heightPercent="70%"
+                app:layout_widthPercent="70%" />
+        </android.support.percent.PercentRelativeLayout>
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/header"
+        app:layout_marginTopPercent="1%">
+
+
+        <android.support.percent.PercentFrameLayout
+            android:id="@+id/v_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editText_mobile_number"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/et_border"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Registered Mobile Number"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/light_black"
+                android:textColorHint="@color/light_black"
+                android:textCursorDrawable="@null"
+                app:layout_heightPercent="20%"
+                app:layout_widthPercent="82%" />
+
+            <ImageView
+                android:id="@+id/iv_memno_cross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/ic_clear_black_24dp"
+                android:visibility="invisible"
+                app:layout_marginRightPercent="10%" />
+        </android.support.percent.PercentFrameLayout>
+
+        <android.support.percent.PercentFrameLayout
+            android:id="@+id/v_otp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_otp"
+            app:layout_marginTopPercent="3%">
+
+            <EditText
+                android:id="@+id/editText_password"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/et_border"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/light_black"
+                android:textColorHint="@color/light_black"
+                android:textCursorDrawable="@null"
+                app:layout_heightPercent="20%"
+                app:layout_widthPercent="82%" />
+
+            <ImageView
+                android:id="@+id/iv_pass_cross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/ic_clear_black_24dp"
+                android:visibility="invisible"
+                app:layout_marginRightPercent="10%" />
+        </android.support.percent.PercentFrameLayout>
+
+
+        <Button
+            android:id="@+id/button_verify"
+            android:layout_below="@+id/v_otp1"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:background="@color/colorAccent"
+            android:text="Get OTP"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            app:layout_heightPercent="15%"
+            app:layout_widthPercent="60%" />
+
+        <TextView
+            android:id="@+id/tv_needhelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_verify"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Need Help?"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            app:layout_marginTopPercent="5%" />
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

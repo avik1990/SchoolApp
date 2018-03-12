@@ -1,0 +1,125 @@
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/colornormal</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeButtonWhite" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="ThemeButtonFb" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/fb</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="ThemeButtonBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/welcome_bg</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="ThemeButtonGrey" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/dark_grey</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="ThemeButtonGplus" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/gplus</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="AppThemeDashboard" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/backgroundWhite</item>
+        <item name="titleTextStyle">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/backgroundWhite</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeRegister" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/dark_grey</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeDashboard.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeRegister.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.NoTranslucent">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeDashboard.NoActionBar.NoTranslucent">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeRegister.NoActionBar.NoTranslucent">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Base2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/dark_grey</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+</resources>
